@@ -1,11 +1,10 @@
 public class Room {
 	int RoomIP;
 	int RoomPort;
-	String RoomName;
-	public Room(int roomIP, int roomPort, String roomName) {
+	
+	public Room(int roomIP, int roomPort) {
 		RoomIP=roomIP;
 		RoomPort=roomPort;
-		RoomName=roomName;
 	}
 	public void addPlayer() {
 		
